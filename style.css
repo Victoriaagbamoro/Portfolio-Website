@@ -1,0 +1,50 @@
+
+
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
+}
+
+.wrapper h2{
+    padding: 0;
+    margin: 0;
+    color: #da627d;
+    /* text-shadow: 0 2px 0 rgba(0,0,0,0.5); */
+    font-size: 35px;
+    line-height: 25px;
+}
+.wrapper p{
+    line-height: 25px;
+}
+span:before{
+    content: '';
+    animation: animate infinite 8s; 
+}
+@keyframes animate{
+    0%{
+        content: 'Front End Developer';
+    }
+    20%{
+        content: 'UI | UX Designer';
+    }
+    40%{
+        content: 'Writer';
+    }
+    60%{
+        content: 'Content Creator';
+    }
+    80%{
+        content: 'Advocate';
+    }
+    100%{
+        content: 'Certified Researcher';
+    }
+
+}
