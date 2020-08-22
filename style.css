@@ -86,6 +86,9 @@ body{
     color: #ffffff;
     font-family: 'Poppins';
     background: linear-gradient(to right, #ef476f, #fd57bf); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .body-container{
