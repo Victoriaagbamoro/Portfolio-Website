@@ -83,6 +83,7 @@ html{
 
 /* Background Color */
 body{
+    position: sticky;
     color: #ffffff;
     font-family: 'Poppins';
     background: linear-gradient(to right, #ef476f, #fd57bf); 
@@ -1027,11 +1028,14 @@ body{
         background-color: #16162d;
     }
     
+    .links p{
+        text-align: center;
+    }
 
     .links a{
         list-style: none;
         text-decoration:none ;
-        padding: 5px 5px;
+        padding: 3px 3px;
         text-decoration: underline;
         border: none;
         border-radius: 10px;
