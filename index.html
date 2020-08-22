@@ -4,104 +4,224 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Victoria Agbamoro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.1/css/all.css"
+        integrity="sha384-IT8OQ5/IfeLGe8ZMxjj3QQNqT0zhBJSiFCL3uolrGgKRuenIU+mMS94kck/AHZWu" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">VA</div>
-        <div class="menu-toggler">
-            <div class="bar half start"></div>
-            <div class="bar"></div>
-            <div class="bar half end"></div>
-
-        </div>
-        <nav class="top-nav">
-            <ul class="nav-list">
-                <li>
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li>
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li>
-                    <a href="#projects" class="nav-link">Projects</a>
-                </li>
-                <li>
-                    <a href="#blogs" class="nav-link">Blogs</a>
-                </li>
-                <li>
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
-                <li>
-                    <a href="https://docs.google.com/document/d/1ZMdonBm8mhPqNkwGDu1S6biwpqltKdrkC_mvGOk7n_c/edit" class="nav-link">Resume</a>
-                </li>
-
-            </ul>
-        </nav>
-
-        <div class="wrapper">
-            <p>Hi, my name is</p>
-            <h1>Victoria Agbamoro</h1>
-            <h2><span></span></h2>
-            <p>A self taught Front End Developer and User Interface Designer. Enjoy building website using 
-                interactive interface. Passionate about creating good and readable codes. Witty with a spice of fun.
-            </p>
-            <a href="https://mail.google.com/mail/u/0/agbamorovictoria"><button>Get In Touch</button></a>
-        </div>
-    </header>
-
-    <section class="about" id="about">
+    <div class="body-container">
         <div class="container">
-            <div class="profile-img">
-                <img src="https://i.ibb.co/S6vjGTX/nn.png" alt="nn">
-            </div>
-            <div class="about-details">
-                <div class="about-heading">
-                    <h1>About</h1>
-                    <h6>Myself</h6>
-
+            <header>
+                <div class="navbar">
+                    <li href="#" class="logo">VA</li>
+                    <ul class="nav">
+                        <li>
+                            <a class="icon" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="icon" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="icon" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a class="icon" href="#blogs">Blogs</a>
+                        </li>
+                        <li>
+                            <a class="icon" href="#contact">Contact</a>
+                        </li>
+                        <li >
+                            <a  class="active" href="https://docs.google.com/document/d/1ZMdonBm8mhPqNkwGDu1S6biwpqltKdrkC_mvGOk7n_c/edit" class="nav-link">Resume</a>
+                        </li>   
+                    </ul>
                 </div>
-                <p>I'm Victoria Agbamoro, self taught Front-Developer living in Lagos, Nigeria. My love for the browser began when i stumbled on sites and fell in love with how these things work.
-                I wanted to find out what makes the browser works the way it does. Which is why i love building web apps, to make for easy accessibility and reability. school-taught 
-                Historian which is why i love research and documentation
                 
-                I'm Passionate about technology and creating web applications that will change lives around the world. 
-                I love sharing things i'm learning which is why i write articles through my blog bycodebits on Front end development and Tech innovations. 
-                I use my blog as a medium to share things i'm learning in the course of my growth.
-
-                Aside from been a tech lover, when i'm not coding, i spend time to write stories and books for children and teens. I love kids and teens and i have a passion to change lives.
-            </p>
-            <div>
-                <p>Here are a few technologies I've been working with recently:</p>
+            </header>
+    
+            <div class="home-area" id="home">
                 <div>
-                    <ul>
-                        <li>HTML & CSS</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>React</li>
-                    </ul>
+                    <p class="name">Hi, my name is</p>
+                    <h1>Victoria Agbamoro</h1>
+                    <h5><span class="animate"></span></h5>
+                    <p>A self taught Front End Developer and User Interface Designer. Enjoy building website using 
+                    interactive interface. Passionate about creating good and readable codes. I also love to write value based stories for kids and teens.
+                    Witty with a spice of fun.
+                    <p>
+                        <a href="https://mail.google.com/mail/u/0/agbamorovictoria"><button>Get In Touch</button></a>
+                    </p>
+                    </p>
                 </div>
+    
+                <div class="profile-img">
+                    <img src="https://i.ibb.co/T0cfqBD/IMG-7710-2.jpg" alt="nn">
+                </div>
+            </div>
+        
+            <div class="about-area" id="about">
+                <div class="container">
+                    <div class="about-details">
+                        <h2>More About Me</h2>
+                        <p>I'm Victoria Agbamoro, self taught Front-end Engineer living in Lagos, Nigeria. My love for the browser began when i stumbled on sites and fell in love with how these things work.
+                        I wanted to find out what makes the browser works the way it does. Which is why i love building web apps, to make for easy accessibility and reability. School-taught 
+                        Historian which is why i love research and documentation.
+                        
+                        I'm Passionate about technology and creating web applications that will change lives around the world. 
+                        I love sharing things i'm learning which is why i write articles through my blog bycodebits on Front end development and Tech innovations. 
+                        I use my blog as a medium to share things i'm learning in the course of my growth.
+                        Aside from been a tech lover, when i'm not coding, i spend time to write stories and books for children and teens.I love kids and teens and i have a passion to change lives.
+                        </p>
+                    </div>
+                    <p>Here are a few technologies I've been working with recently:</p>                
+                    <div class="about-heading2">
+                        <div class="works-on">
+                            <div>
+                                <ul>
+                                    <li>HTML & CSS</li>
+                                    <li>JavaScript (ES6+)</li>
+                                    <li>React</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>Figma</li>
+                                    <li>Vue Js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <div class="social-list">
+                            <span class="social">
+                                <a href="https://www.linkedin.com/in/victoria-agbamoro-456227157/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+        
+                                <a href="https://medium.com/@agbamorovictoria">
+                                    <i class="fab fa-medium"></i>
+                                </a>
+        
+                                <a href="https://twitter.com/vickyagbamoro">
+                                    <i class="fab fa-twitter-square"></i>
+                                </a>
+        
+                                <a href="https://github.com/Victoriaagbamoro">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </span>
+                        </div>
+        
+                    </div>
+        
+                </div>
+                
+        
+            </div>
+        
+            <div class="project-area" id="projects">
                 <div>
-                    <ul>
-                        <li>React Redux</li>
-                        <li>Node Js</li>
-                        <li>Express</li>
-                    </ul>
+                    <h2>Some Things I've Built</h2><p></p>
                 </div>
-            
-            </div>
+                <div class="project-works">
+                    <div class="top">
+                        <h3>Udemy For Kids</h3>
+                        <p>Udemy for kids was a test project, whereby kids can take courses and instructors can upload
+                            there courses on the platform.
+                        </p>
+                        
+                        <a href="https://github.com/Victoriaagbamoro/Udemykiddies">View Code</a>
+                    </div>
 
+                    <div class="sec">
+                        <h3>Human Expression Finder</h3>
+                        <p>A rendered expression of several human expression using API, designed my own API and components </p>
+                        <a href="https://github.com/Victoriaagbamoro/Human-Expression-Finder">View Code</a>
+                    </div>
+                </div>
+        
             </div>
-            <div class="social-media">
+        
+            <div class="blog-area" id="blogs">
+                <div class="blog-details">
+                    <h2>Blog Post</h2>
+                </div>
 
+                <div class="blog-works">
+                    <div class="top">
+                        <h3>Getting Started With JavaScript Part 1(Global &Local scope)</h3>
+                        <p>Udemy for kids was a test project, whereby kids can take courses and instructors can upload
+                            there courses on the platform.</p> 
+                        <a href="https://www.bycodebits.com/2020/07/21/getting-started-with-javascript-part-1global-local-scope/">Read More</a>
+                    </div>
+
+                    <div class="sec">
+                        <h3>Basic Foundation Of JavaScript Part 2 (Primitive Data Types)</h3>
+                        <p>Udemy for kids was a test project, whereby kids can take courses and instructors can upload
+                            there courses on the platform.</p>
+                        <a href="https://medium.com/@agbamorovictoria/basic-foundation-of-javascript-series-part-2-primitive-data-types-8ed778b4107d">Read More</a>
+                    </div>
+                </div>
+
+                <div class="child-article">
+                    <h2>Children Development Articles</h2>
+
+                    <div class="child-blog">
+                        <div class="top">
+                            <h3>Helping Children Learn</h3>
+                            <p>Udemy for kids was a test project, whereby kids can take courses and instructors can upload
+                                there courses on the platform.</p>
+                            <a href="https://www.notion.so/Helping-Children-Learn-11d9b1b279764eaaa62c25774623925d">Read More</a>
+                        </div>
+
+                        <div class="sec">
+                            <h3>The Effect of Neglect on a child developmental process</h3>
+                            <p>Udemy for kids was a test project, whereby kids can take courses and instructors can upload
+                                there courses on the platform.</p>
+                            <a href="https://www.notion.so/The-Effect-of-Neglect-on-a-child-developmental-process-a9225eca595242619cde1e83770e346f">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="view">
+                    <button>View More</button>
+                </div>
+        
             </div>
-
+        
+            <footer>
+                <div class="contact-area" id="contact">
+                    <h1>Get In Touch</h1>
+                    <div>
+                        <p>I will love to join your team to build remarkable web applications. Kiindly send me a message</p>
+                        <a class="touch" href="https://mail.google.com/mail/u/0/agbamorovictoria">Get In Touch</a>
+                    </div>
+                    <div class="links"> 
+                        <span>
+                            <span>
+                                <a class="first" href="https://www.bycodebits.com/" class="icon-link">
+                                    Bycodebits
+                                </a>
+        
+                                <a class="second" href="#" class="icon-link">
+                                    Resume
+                                </a>
+        
+                                <a href="https://github.com/Victoriaagbamoro" class="icon-link">
+                                    Github
+                                </a>
+                            </span>
+                            
+                        </span>
+                    </div>
+                </div>
+            </footer>
+    
         </div>
-
-    </section>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
