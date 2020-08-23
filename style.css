@@ -83,6 +83,8 @@ html{
 
 /* Background Color */
 body{
+    overflow: visible;
+    overflow: scroll;
     position: sticky;
     color: #ffffff;
     font-family: 'Poppins';
@@ -234,15 +236,11 @@ body{
 .project-works div{
     border: 1px solid #fd57bf;
     border-left: 10px solid #fd57bf;
-    width: 95%;
+    width: 100%;
     border-radius: 15px;
     padding: 0px 10px 10px;
     cursor: pointer;
-    transition: 0.5s;
-}
-.project-works div:hover{
-    background-color: #16162d;
-    width: 100%;
+   
 }
 
 .project-works .sec{
@@ -346,17 +344,13 @@ body{
 .blog-works div{
     border: 1px solid #fd57bf;
     border-left: 10px solid #fd57bf;
-    width: 95%;
+    width: 100%;
     border-radius: 15px;
     padding: 0px 10px 10px;
     cursor: pointer;
-    transition: 0.5s;
+   
 }
 
-.blog-works div:hover{
-    background-color: #16162d;
-    width: 100%;
-}
 
 
 .blog-works .sec{
@@ -391,23 +385,29 @@ body{
 .child-blog div{
     border: 1px solid #fd57bf;
     border-left: 10px solid #fd57bf;
-    width: 95%;
+    width: 90%;
     border-radius: 15px;
     padding: 0px 10px 10px;
     cursor: pointer;
-    transition: 0.5s;
+    
+}
+.child-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    margin: 120px;
+    margin-left: 13%;
+    flex-wrap: nowrap;
 }
 .child-article h2{
+    font-size: 35px;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.child-blog div:hover{
-    background-color: #16162d;
-    width: 100%;
-}
 
 .child-blog p{
-    width: 80%;
     font-weight: bolder;
     line-height: 30px;
 }
@@ -443,26 +443,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.view{
-    margin-top: 35px;
-}
-
-.view button{
-    padding: 13px;
-    border: 1px solid #fd57bf;
-    outline: none;
-    color: white;
-    background-color: #16162d;
-    text-align: center;
-    cursor: pointer;
-    font-size: 19px;
-    font-family: 'caviardreams';
-    transition: 0.5s;
-}
-
-.view button:hover {
-    background-color: #16162d;
-}
 
 .contact-area{
     padding: 50px 50px;
@@ -921,6 +901,15 @@ body{
         background-color: #16162d;
         width: 90%;
     }
+
+    .child-article{
+         margin-top: -80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
     
     .child-article h2{
         font-size: 20px;
@@ -977,7 +966,6 @@ body{
         text-align: center;
         cursor: pointer;
         font-size: 18px;
-        font-family: 'caviardreams';
         transition: 0.5s;
     }
     
@@ -1044,8 +1032,8 @@ body{
         text-align: center;
         cursor: pointer;
         font-weight: bolder;
-        font-size: 18px;
-        letter-spacing: 1px;
+        font-size: 16px;
+        /* letter-spacing: 1px; */
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         
     }
